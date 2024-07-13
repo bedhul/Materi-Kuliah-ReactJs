@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {images: {
+    domains: ['img.antaranews.com','cdna.artstation.com','localhost']
+}};
 
-export default nextConfig;
+export default nextConfig;
